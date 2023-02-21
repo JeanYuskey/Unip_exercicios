@@ -1,6 +1,6 @@
 package Carro_Motor;
 
-public class Atribustos_Carr0 {
+public class Atributos_Carr0 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
