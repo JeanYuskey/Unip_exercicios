@@ -16,13 +16,15 @@ public class Program {
 
 		Gente g2 = new Gente();
 		
+		System.out.println("\n1. "+g2.ToString());
+		
 		//g2.genero = 'F' -> n consigo fazer assim pq ele está em private
 		g2.setGenero('F');
 				
 		//System.out.println("\n\n\n"+g2.ToString());
 		g2.setNome("Severina");
-		System.out.println("\n\n\n"+g2.getNome());
-		System.out.println("\n\n\n"+g2.ToString());
+		System.out.println("\n2. "+g2.getNome());
+		System.out.println("\n3. "+g2.ToString());
 		
 		
 	}

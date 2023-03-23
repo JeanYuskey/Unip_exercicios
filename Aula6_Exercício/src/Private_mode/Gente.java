@@ -1,3 +1,5 @@
+package Private_mode;
+
 
 public class Gente {
 	private  String nome;
@@ -7,7 +9,13 @@ public class Gente {
 	public String getNome() {
 		return this.nome;
 	}
-	public Data nascimento;
+	private Data nascimento;
+	public void setNascmento(Data valor) {
+		this.nascimento = valor;
+	}
+	public Data getNascimento() {
+		return this.nascimento;
+	}
 	private char genero;
 	public void setGenero(char valor) {
 		this.genero = valor;
