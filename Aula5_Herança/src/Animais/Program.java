@@ -8,6 +8,8 @@ System.out.println("Jardim Zoológico \n");
 	Mamifero camelo = new Mamifero("Camelo", 3, 4, "Marrom claro", "Terra", (float)18.0556);
 	camelo.alteraCor("Marrom escuro");
 	
+	camelo.alteraAmbiente("Oceano");
+	
 	camelo.Mamifero("mamifero", "Vegetação e peixes");
 
 System.out.println("\n\n");

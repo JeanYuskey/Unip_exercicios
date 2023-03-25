@@ -1,4 +1,4 @@
-
+package Banco;
 public class ContaPoupança extends ContaBancaria {
 	public int diaRendimento;
 	public void calcularNovoSaldo(float taxa) {
