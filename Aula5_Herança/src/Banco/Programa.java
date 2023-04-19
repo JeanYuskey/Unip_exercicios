@@ -17,6 +17,6 @@ public class Programa {
 		e1.saldo = 100;
 		//System.out.println("Valor sacado: " + e1.sacar(150) + "\nSaldo: " + e1.saldo);
 		ContaEspecial e2 = new ContaEspecial();
-		System.err.println(e2);
+		System.out.println(e2);
 	}
 }

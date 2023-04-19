@@ -13,6 +13,7 @@ public class Program {
 		System.out.println("");
 		
 		Funcionario f2 = new Funcionario ("Josefa",d1, "Recepcionista", 2500);
+		f2.aumento();
 		System.out.println(f2);
 		System.out.println("");
 		
